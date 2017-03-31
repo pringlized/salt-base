@@ -1,4 +1,3 @@
-
 salt-minion:
   pkgrepo:
     - managed

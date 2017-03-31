@@ -1,7 +1,8 @@
-salt-base:
+base:
   '*':
     - salt.states.base
     - salt.minion
-    - salt.fail2ban
-    - salt.git
-    - salt.python-pip
+    - sysctl
+    - fail2ban
+    - git
+    - python-pip
