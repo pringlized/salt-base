@@ -3,4 +3,4 @@ fail2ban:
     - latest
   service:
     - running
-    - enabled: True
+    - enable: True

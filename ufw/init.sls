@@ -3,7 +3,7 @@ ufw:
     - latest
   service:
     - running
-    - enabled: True
+    - enable: True
   cmd:
     - run
     - name: ufw allow ssh
