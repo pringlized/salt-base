@@ -5,7 +5,7 @@ fail2ban:
     - name: touch /etc/fail2ban/jail.local
   file.managed:
     - name: /etc/fail2ban/jail.local
-    - source: salt://fail2ban/etc/jail.local
+    - source: salt://fail2ban/etc/fail2ban/jail.local
   service:
     - running
     - enable: True    
