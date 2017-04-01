@@ -7,3 +7,6 @@ ufw:
   cmd:
     - run
     - name: ufw allow ssh
+  cmd:
+    - run
+    - name: ufw enable
