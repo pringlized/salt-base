@@ -5,5 +5,6 @@ base:
     - ufw
     - sysctl
     - fail2ban
+    - logwatch
     - git
     - python-pip
