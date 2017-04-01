@@ -6,7 +6,6 @@ ufw:
     - enable: True
   cmd:
     - run
-    - name: ufw allow ssh
-  cmd:
-    - run
-    - name: ufw enable
+    - name: |
+        ufw allow ssh
+        ufw enable
